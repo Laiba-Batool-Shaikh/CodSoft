@@ -1,0 +1,43 @@
+body{
+    background: url("C:/Users/mohd_/OneDrive/Desktop/calculator/img.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container{
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    margin: 200px auto;
+    background: transparent;
+    backdrop-filter: blur(14px);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+input[type="text"]{
+    width: 280px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+button{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+button:hover{
+    opacity: 0.8;
+    color: #4CAF50;
+}
